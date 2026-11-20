@@ -1,7 +1,4 @@
-"""
-AntiSkid — retro/pixel-inspired Windows digital forensics GUI.
-The visual language is inspired by the supplied compact, beveled desktop UI.
-"""
+
 from __future__ import annotations
 
 import os
