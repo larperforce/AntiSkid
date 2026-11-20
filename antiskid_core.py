@@ -1,8 +1,4 @@
-"""
-AntiSkid core collectors.
-Read-only Windows endpoint triage helpers. No evidence is executed, modified,
-deleted, quarantined, or uploaded by this module.
-"""
+
 from __future__ import annotations
 
 import csv
