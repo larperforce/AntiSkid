@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="700" viewBox="0 0 1160 700">
+<defs><style>
+.bg{fill:#211d26}.panel{fill:#302b35;stroke:#91869e;stroke-width:2}.inner{fill:#25212a;stroke:#6f6977;stroke-width:1.5}
+.t{font: bold 21px Consolas,monospace;fill:#eeeaf2}.h{font:bold 15px Consolas,monospace;fill:#cbbfda}.s{font:13px Consolas,monospace;fill:#d8d1dc}.muted{font:12px Consolas,monospace;fill:#b8b0bf}
+.line{stroke:#cbbfda;stroke-width:2;fill:none}.arrow{fill:#cbbfda}
+</style>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" class="arrow"/></marker></defs>
+<rect width="1160" height="700" class="bg"/>
+<text x="42" y="45" class="t">ANTISKID // COLLECTION ARCHITECTURE</text>
+<text x="42" y="72" class="muted">Local, read-only triage pipeline · 0.2.0</text>
+<rect x="42" y="105" width="1076" height="95" rx="4" class="panel"/>
+<text x="68" y="139" class="h">TKINTER / TTK DESKTOP UI</text>
+<text x="68" y="168" class="s">Overview · USB History · Event Logs · File Inventory · Timeline · Collection Notes · HTML / CSV Export</text>
+<path d="M580 200 V246" class="line" marker-end="url(#arrow)"/>
+<rect x="42" y="258" width="1076" height="80" rx="4" class="panel"/>
+<text x="68" y="290" class="h">COLLECTION ORCHESTRATION</text>
+<text x="68" y="317" class="s">Background worker thread · Queue-based UI updates · Per-source status and access notes</text>
+<path d="M580 338 V382" class="line" marker-end="url(#arrow)"/>
+<rect x="42" y="395" width="330" height="120" rx="4" class="panel"/>
+<text x="64" y="429" class="h">WINDOWS SOURCES</text>
+<text x="64" y="459" class="s">USB Registry keys</text><text x="64" y="483" class="s">SetupAPI.dev.log</text>
+<text x="64" y="503" class="muted">Read only · timestamps qualified</text>
+<rect x="415" y="395" width="330" height="120" rx="4" class="panel"/>
+<text x="437" y="429" class="h">EVENT LOG SNAPSHOT</text>
+<text x="437" y="459" class="s">System / Application / Security</text><text x="437" y="483" class="s">Defender / Driver / Kernel-PnP</text>
+<text x="437" y="503" class="muted">Recent bounded records only</text>
+<rect x="788" y="395" width="330" height="120" rx="4" class="panel"/>
+<text x="810" y="429" class="h">FILE TRIAGE</text>
+<text x="810" y="459" class="s">Metadata · signature hints · entropy</text><text x="810" y="483" class="s">SHA-256 · extension heuristics</text>
+<text x="810" y="503" class="muted">No execution · bounded scan</text>
+<path d="M207 515 V557 H580" class="line"/>
+<path d="M580 515 V557" class="line"/>
+<path d="M953 515 V557 H580" class="line"/>
+<path d="M580 557 V588" class="line" marker-end="url(#arrow)"/>
+<rect x="270" y="600" width="620" height="70" rx="4" class="inner"/>
+<text x="300" y="630" class="h">NORMALIZED EVIDENCE MODEL</text>
+<text x="300" y="653" class="s">Timeline events · heuristic findings · collection notes · HTML / CSV reports</text>
+</svg>
